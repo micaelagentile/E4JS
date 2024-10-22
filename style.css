@@ -1,0 +1,48 @@
+body {
+    font-family: Arial,
+      sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px
+      20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pokemon-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px
+      solid
+      #ccc;
+    background-color: white;
+    display: none;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  .pokemon-card
+    img {
+    max-width: 100%;
+  }
+  
+  .error {
+    color: red;
+  }
+  
